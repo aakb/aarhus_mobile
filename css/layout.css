@@ -1,0 +1,166 @@
+
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  font-size:13px;
+}
+
+.block-ting_search{
+  padding:0 5px;
+}
+
+#ting-search-form a{
+  color:#000;
+  text-decoration:none;
+  padding:7px;
+  display:block;
+  font-size:12px;
+} 
+
+.block-ting_search h2,
+.block-ting_search #ting-search-form .example{
+  display:none;
+}
+
+#ting-search-form #edit-keys-wrapper label{
+  position:absolute;
+  top:0;
+  font-weight:normal;
+  /*font-size:0.8em;*/
+ padding:8px;
+}
+#ting-search-form #edit-keys-wrapper{
+  margin: 0 80px 0 0;
+  
+}
+#ting-search-form #edit-keys-wrapper input{
+  width: 100%;
+  border:1px solid #cecece;
+  border-radius:0;
+  /*background: #fff;
+  background-image: none;*/
+  padding:4px;
+  margin:0;
+}
+#ting-search-form .form-submit{
+  position:absolute;
+  right:0px;
+  top:0;
+  /*background: #f37d01;*/
+  /*color:#fff;*/
+  /*border:1px solid #cecece;*/
+}
+
+
+
+
+
+div.top img{
+  display:block;
+  width:100%;
+}
+
+div.top div.top_top,
+div.top div.top_bottom{
+  position:relative;
+}
+.login-btn{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ebebeb), to(#fbfbfb));
+  position:absolute;
+  right:9.5%;
+  border:1px solid #cecece;
+  color:#000;
+  border-top:0 none;
+  padding:5px;
+  border-radius: 0 0 5px 5px;
+  display:block;
+  text-decoration: none;
+}
+.block-ting_search{
+  padding:0;
+  position:absolute;
+  top:0;
+  margin-left:21%;
+  margin-top:10px;
+  width:69%;
+}
+
+
+/* node specific */
+
+.node-type-article .submitted,
+.node-type-event .submitted{
+  color:#a1a1a2;
+}
+
+.panel-pane .pane-content div.node{
+  margin:1em;
+}
+
+/* user pages reset */
+.page-user #user-login{
+    margin:1em;
+}
+.page-user #user-login input.form-text{
+  width:95%;
+}
+
+.profile{
+  margin:0;
+}
+.profile h4,.profile dt, .profile dd:not(.fixmenu) {
+  margin-left:1em;
+  margin-right:3em;
+}
+
+#ding-reservation-list-form caption{
+  background: #c0c0c0;
+  padding:0.5em 0 0.5em 1em;
+  text-transform:uppercase;
+  font-size:13px;
+  text-align:left;
+  margin:0;
+  margin-top:5px;
+  margin-bottom:1px;
+  font-weight:bold;
+}
+
+/*.profile dd .item-list { margin-left: -1em; }*/
+
+ 
+ 
+ 
+#drupal-messages{
+  /*margin:1em;*/
+  overflow:hidden;
+} 
+ 
+ 
+ 
+.unavailable,
+.unreservable,
+.available,
+.waiting{
+  background: #F85F26;
+  color:#fff;
+  padding:2px;
+  margin:5px;
+  display:inline-block;
+} 
+.available{
+  background: #71BF44;
+} 
+.waiting{
+  background:#cecece;
+}
+#ting-object .ting-item .available,
+#ting-object .ting-item .unavailable,
+#ting-object .ting-item .unreservable,
+#ting-object .ting-item .waiting{
+  display:block;
+  text-align:center;
+}
+
+#ding-reservation-list-form .container-inline-date{
+  display:none;
+}

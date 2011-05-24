@@ -1,0 +1,23 @@
+; $Id$
+name = Aarhus Mobile
+description = Alternator subtheme for Aarhus Bibliotek
+screenshot  = screenshot.png
+core = 6.x
+engine = phptemplate
+base theme = alternator
+
+;--------------------- regions -----------------------------
+regions[account]        = account
+regions[search]         = search
+regions[header]         = header
+regions[left]           = left sidebar
+regions[right]          = right sidebar
+regions[footer]         = footer
+regions[footer_one]     = footer one
+regions[footer_two]     = footer two
+regions[footer_three]   = footer three
+regions[footer_four]    = footer four
+
+;--------------------- styles -----------------------------
+stylesheets[all][] = css/layout.css
+
