@@ -19,5 +19,5 @@ regions[footer_three]   = footer three
 regions[footer_four]    = footer four
 
 ;--------------------- styles -----------------------------
-stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
 
