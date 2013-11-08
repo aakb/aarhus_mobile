@@ -151,3 +151,10 @@
   text-transform: uppercase;
   color: #fff;
 }
+
+/* Don't display login and example search that suddenly appeared... */
+.header .top .login-btn,
+.header #search .example {
+  display: none;
+}
+
